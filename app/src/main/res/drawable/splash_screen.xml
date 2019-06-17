@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/splash_bg" />
+
+    <item
+        android:width="200dp"
+        android:height="180dp"
+        android:top="50dp"
+        android:drawable="@drawable/wallpaper_hub_logo"
+        android:gravity="center_horizontal" />
+
+
+</layer-list>

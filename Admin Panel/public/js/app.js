@@ -20,7 +20,36 @@
         var result = firebase.auth().signInWithEmailAndPassword(email, password);
     
         result.catch(function(error){
-            var errorCode = error.code; 
+            var errorCode = error.code; static long candies(int n, int[] arr) {
+                long count = 0;
+                int j;
+                int i;
+                long[] seq = new long[n];
+                seq[0] = 1;
+        
+                for(i=0; i<n-1; i++)
+                {
+                    seq[i+1]=1;
+        
+                    if(arr[i] > arr[i+1] && seq[i]<=seq[i+1])
+                    {
+                        j=i;
+                        while( j<=n-2 && arr[j] > arr[j+1])
+                        {
+                            seq[i]++;
+                            j++;
+                        }
+                    }
+                    else if(arr[i] < arr[i+1])
+                    {
+                        seq[i+1] = seq[i]+1;
+                    }
+        
+                    count += seq[i];
+                }
+                count += seq[i];
+                return count;
+            }
             var errorMessage = error.message; 
 
             console.log(errorCode);

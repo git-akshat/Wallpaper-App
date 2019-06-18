@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.example.wallpaper.R;
+import com.example.wallpaper.adapters.WallpapersAdapter;
 import com.example.wallpaper.models.Wallpaper;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

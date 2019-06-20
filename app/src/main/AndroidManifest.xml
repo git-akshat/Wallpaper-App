@@ -24,7 +24,7 @@
         <provider
             android:exported="false"
             android:grantUriPermissions="true"
-            android:authorities="com.example.wallpaper.provider"
+            android:authorities="${applicationId}.provider"
             android:name="android.support.v4.content.FileProvider">
 
             <meta-data

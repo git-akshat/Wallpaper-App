@@ -28,13 +28,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:orientation="vertical">
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="27dp"
+            android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/checkbox_favourite"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:button="@drawable/fav_checkbox_selector" />
 
             <ImageButton
